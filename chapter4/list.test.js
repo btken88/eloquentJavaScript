@@ -24,5 +24,6 @@ test('prepend should create a new list with a new element at the start', () => {
 })
 
 test('nth should return the element at the given list position or undefined if no position exists', () => {
-  expect(nth(list, 0)).toBe(2)
+  expect(nth(list, 0)).toBe(1)
+  expect(nth(list, 3)).toBe(undefined)
 })
