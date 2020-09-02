@@ -7,4 +7,12 @@ function range(start, end, increment = 1) {
   return numberArray
 }
 
-module.exports = { range }
+function sum(array) {
+  let total = 0;
+  for (item in array) {
+    total += array[item]
+  }
+  return total
+}
+
+module.exports = { range, sum }

@@ -1,4 +1,4 @@
-const { range } = require('./rangeSum')
+const { range, sum } = require('./rangeSum')
 
 test('range function should return an array of numbers based on input parameters', () => {
   expect(range(1, 10)).toEqual(expect.arrayContaining(
