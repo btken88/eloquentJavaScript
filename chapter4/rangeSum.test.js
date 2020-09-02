@@ -9,3 +9,8 @@ test('range function should return an array of numbers based on input parameters
     [5, 4, 3, 2]
   ))
 })
+
+test('sum function correctly adds all the numbers in an array', () => {
+  expect(sum([1, 2])).toBe(3)
+  expect(sum(range(1, 10))).toBe(55)
+})
