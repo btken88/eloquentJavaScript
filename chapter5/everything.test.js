@@ -1,4 +1,4 @@
-const { every } = require('./flattening')
+const { every } = require('./everything')
 
 
 test('should return true when all elements match the predicate', () => {
